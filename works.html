@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="favicon" href="./storage/image/web_footage/bridge_icon.png">
+  <title>Build a Bridge</title>
+
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./script/lib/jquery-1.12.4.min.js"></script>
+  <script src="./script/lib/jquery.easing.1.3.js"></script>
+  <script src="./script/lib/react.production.min.js"></script>
+  <script src="./script/lib/react-dom.production.min.js"></script>
+  <script src="./script/lib/babel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+<body>
+  <!-- <div id="root"></div> -->
+  <div id="wrap">
+    <header id="header"></header>
+    <main id="main">
+      <div id="works">
+        <section id="section1">
+          <div class="container">
+            <div class="gap">
+              <div class="wrap">
+                <div class="title-area">
+                  <h1 class="f_deco">1.<br/>WEB<br/>PROJECT</h1>
+                </div>
+                <div class="slide-area">
+                  <div class="slide-box">
+                    <div class="slide-view">
+                      <ul class="slide-wrap">
+                        <li class="bg0"></li>
+                        <li class="bg1"></li>
+                        <li class="bg2"></li>
+                        <li class="bg3"></li>
+                        <li class="bg4"></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="control-box">
+                    <button type="button" class="prev-btn"></button>
+                    <h2 class="slide-title">WIM</h2>
+                    <button type="button" class="next-btn"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="section2">
+          <div class="container">
+            <div class="gap">
+              <div class="wrap">
+                <div class="title-area">
+                  <h1 class="f_deco">2.<br/>OTHER<br/>PROJECTS</h1>
+                </div>
+                <div class="gallery-area">
+                  <div class="gal-index">
+                    <h2>GALLERY</h2>
+                  </div>
+                  <div class="gal">
+                    <div class="filter-box">
+                      <ul>
+                        <li><span>filter : </span></li>
+                        <li><button class="filter-btn on" value="all">All</button></li>
+                        <li>/</li>
+                        <li><button class="filter-btn" value="uxui">Project</button></li>
+                        <li>/</li>
+                        <li><button class="filter-btn" value="graphic">Graphic</button></li>
+                        <li>/</li>
+                        <li><button class="filter-btn" value="editorial">Editorial</button></li>
+                        <li>/</li>
+                        <li><button class="filter-btn" value="video">Video</button></li>
+                      </ul>
+                    </div>
+                    <div class="item-box">
+                      <ul class="item-wrap">
+                        <li id="peacock" class="item uxui graphic editorial video">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">피코크</h3>
+                              <h4 class="item-filter">UX/UI, GRAPHIC, EDITORAL, VIDEO</h4>
+                              <div class="item-bg peacock"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="redConnect" class="item uxui">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">레드커넥트</h3>
+                              <h4 class="item-filter">UX/UI</h4>
+                              <div class="item-bg redConnect"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="rotoscope" class="item video">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">You can be what ever ? want to be</h3>
+                              <h4 class="item-filter">VIDEO</h4>
+                              <div class="item-bg rotoscope"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="wemedi" class="item uxui">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">위메디</h3>
+                              <h4 class="item-filter">UX/UI</h4>
+                              <div class="item-bg wemedi"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="coupang" class="item uxui">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">쿠팡</h3>
+                              <h4 class="item-filter">UX/UI</h4>
+                              <div class="item-bg coupang"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="closeTo" class="item video">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">Close to</h3>
+                              <h4 class="item-filter">VIDEO</h4>
+                              <div class="item-bg closeTo"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="vegan" class="item video">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">미식당</h3>
+                              <h4 class="item-filter">VIDEO</h4>
+                              <div class="item-bg vegan"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="heokOh" class="item video">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">혁오-가죽자켓 키네틱 타이포</h3>
+                              <h4 class="item-filter">VIDEO</h4>
+                              <div class="item-bg heokOh"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="sleep" class="item graphic">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">베개맡 이야기 인포그래픽</h3>
+                              <h4 class="item-filter">graphic</h4>
+                              <div class="item-bg sleep"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="likeBook" class="item graphic editorial">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">편애서점 편집디자인 & 로고</h3>
+                              <h4 class="item-filter">graphic, editorial</h4>
+                              <div class="item-bg likeBook"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="momoco" class="item video">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">불량공주 모모코 오프닝 시퀀스</h3>
+                              <h4 class="item-filter">video</h4>
+                              <div class="item-bg momoco"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="stadew" class="item graphic">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">달빛해파리의 춤 포스터</h3>
+                              <h4 class="item-filter">graphic</h4>
+                              <div class="item-bg stadew"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="mintLife" class="item graphic">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">뷰티풀 민트 라이프 포스터</h3>
+                              <h4 class="item-filter">graphic</h4>
+                              <div class="item-bg mintLife"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="c4d" class="item graphic">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">새소년 포스터</h3>
+                              <h4 class="item-filter">graphic</h4>
+                              <div class="item-bg c4d"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="youngerSchool" class="item editorial">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">청년학교 팜플렛</h3>
+                              <h4 class="item-filter">editorial</h4>
+                              <div class="item-bg youngerSchool"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="kuff" class="item editorial">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">KUFF 팜플렛 & 현수막</h3>
+                              <h4 class="item-filter">editorial</h4>
+                              <div class="item-bg kuff"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="younggeul" class="item editorial">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">영글</h3>
+                              <h4 class="item-filter">editorial</h4>
+                              <div class="item-bg younggeul"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="flower" class="item graphic">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">Flowers</h3>
+                              <h4 class="item-filter">graphic</h4>
+                              <div class="item-bg flower"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="thoneApple" class="item graphic">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">쏜애플-서울</h3>
+                              <h4 class="item-filter">graphic</h4>
+                              <div class="item-bg thoneApple"></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li id="witchTea" class="item graphic">
+                          <div class="gap">
+                            <div class="wrap">
+                              <h3 class="item-title">마가의 찻집 타이틀</h3>
+                              <h4 class="item-filter">graphic</h4>
+                              <div class="item-bg witchTea"></div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="info-box">
+                      <div class="container">
+                        <div class="gap">
+                          <div class="wrap">
+                            <button class="close-btn"><i class="fa fa-arrow-circle-right"></i></button>
+                            <div class="title">
+                              <h2 class="item-title">item title item title</h2>
+                              <h3>
+                                <span class="item-making-year">2022</span>
+                                <span class="item-filter">ux/ui</span>
+                                <span class="item-use-tool">이것저것</span>
+                                <span class="item-type">Team-project</span>
+                              </h3>
+                            </div>
+                            <div class="text">
+                              <p class="sum-and-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sed quis unde nulla autem velit, deleniti non voluptatibus nisi, optio porro a impedit consequuntur illum inventore delectus amet? Velit, consequatur.
+                              </p>
+                              <div class="other-box"></div>
+                              <div class="vid-box"></div>
+                              <div class="pdf-box"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="section3">
+          <div class="container">
+            <div class="gap">
+              <div class="wrap">
+                <a href="./contact.html">Go to the Contact</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+    <div id="webWorkModal">
+      <div class="container">
+        <div class="gap">
+          <div class="wrap">
+            <div class="button-area">
+              <button class="close-btn"></button>
+            </div>
+            <div class="contents-area">
+              <ul class="title-box">
+                <li><h2 class="web-title">web title</h2></li>
+                <li><a href="#" class="web-link" target="_blank">WEB LINK</a><a href="#" class="code-link" target="_blank">CODE LINK</a></li>
+                <li><p class="web-use">web use</p></li>
+                <!-- <li><p class="web-summary">web summay 간단한 요약</p></li> -->
+              </ul>
+              <div class="text-box">
+                <div id="webImgBox"></div>
+                <h3 class="web-keyword"></h3>
+                <p class="web-ex">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium rem nobis consequuntur consectetur, autem voluptatibus odio soluta nesciunt nihil accusantium error voluptatem porro, rerum repellat quia illo perferendis, impedit labore.</p>
+                <p class="web-point"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="close-bg"></div>
+    </div>
+  </div>
+  
+<script src="./script/jQuery.js"></script>
+<script type="text/babel" src="./script/react.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-X: hidden;
+  outline: none;
+  border: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font: normal 14px/1 "Roboto", "Poppins", "Noto Sans KR";
+  color: #333;
+  background: #fff;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+em, i, address {
+  font-style: normal;
+}
+
+.blind {
+  display: block;
+  text-indent: -2000px;
+  overflow: hidden;
+}
+
+header, main, footer, nav, aside, article, section {
+  display: block;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.f_main {
+  font-family: "Roboto";
+}
+
+.f_main_long {
+  font-family: "Roboto Condensed";
+}
+
+.f_main_se {
+  font-family: "Roboto Slab";
+}
+
+.f_sub {
+  font-family: "Poppins";
+}
+
+.f_deco {
+  font-family: "Raleway";
+}
+
+.f_kor {
+  font-family: "Noto Sans KR";
+}
+
+.f_kor_se {
+  font-family: "Noto Serif KR";
+}
+
+.f_dot {
+  font-family: "dot font";
+}

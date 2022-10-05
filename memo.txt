@@ -1,0 +1,128 @@
+        <section id="section1" class="web-section">
+          <div class="container">
+            <div class="gap">
+              <div class="wrap">
+                <h1 class="f_deco">1. WEB</h1>
+                <div class="slide-container">
+                  <div class="slide-view">
+                    <ul class="slide-wrap">
+                      <li class="slide slide1">
+                        <div class="main-area">
+                          <img src="./storage/image/web_footage/web_slide4.jpg" alt="">
+                        </div>
+                        <div class="text-area">
+                          <h1 class="f_sub">WIM</h1>
+                          <div class="ident">
+                            <input type="password" class="password-input">
+                            <button type="button" class="password-btn">OK</button>
+                          </div>
+                         <div class="info">
+                          <p class="web-info info-use">
+                            USE : HTML, SCSS, JS, jQuery
+                          </p>
+                          <p class="web-info info-sum f_kor">
+                            Wirobotics의 보행보조제품 WIM의 홈페이지입니다.
+                          </p>
+                          <button class="more-info-btn">자세히 알아보기</button>
+                         </div>
+                        </div>
+                      </li>
+                      <li class="slide slide2">
+                        <div class="main-area">
+                          <img src="./storage/image/web_footage/web_slide3.jpg" alt="">
+                        </div>
+                        <div class="text-area">
+                          <h1 class="f_sub">D Museum</h1>
+                          <a href="https://seoill.github.io/Web_Portfolio3/" target="_blank">LINK</a>
+                          <div class="info">
+                            <p class="web-info info-use">
+                              USE : HTML, SCSS, JS, jQuery
+                            </p>
+                            <p class="web-info info-sum f_kor">
+                              
+                            </p>
+                            <button class="more-info-btn">자세히 알아보기</button>
+                           </div>
+                        </div>
+                      </li>
+                      <li class="slide slide3">
+                        <div class="main-area">
+                          <img src="./storage/image/web_footage/web_slide2.jpg" alt="">
+                        </div>
+                        <div class="text-area">
+                          <h1 class="f_sub">Brando pofo</h1>
+                          <a href="https://seoill.github.io/Web_Portfolio2/">LINK</a>
+                        </div>
+                      </li>
+                      <li class="slide slide4">
+                        <div class="main-area">
+                          <img src="./storage/image/web_footage/web_slide1.jpg" alt="">
+                        </div>
+                        <div class="text-area">
+                          <h1 class="f_sub">Market Kurly Singup Form</h1>
+                          <a href="./kurly/">LINK</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="arrow-box">
+                  <a href="#" class="left-slide-btn"><i class="material-icons">keyboard_arrow_left</i></a>
+                  <a href="#" class="right-slide-btn"><i class="material-icons">keyboard_arrow_right</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+//peacock
+//redConnect
+//rotoscope
+//wemedi
+//coupang
+//closeTo
+//vegan
+//heokOh
+//sleep
+//likeBook
+//momoco
+//stadew
+//mintLife
+//c4dd
+//youngerSchool
+//kuff
+//younggeul
+//thoneApple
+//witchTea
+
+//'../storage/image/design_pofo/c4d1.jpg'
+//'../storage/image/design_pofo/c4d2.jpg'
+//'../storage/image/design_pofo/c4d3.jpg'
+//'../storage/image/design_pofo/c4d4.jpg'
+//'../storage/image/design_pofo/c4d5.jpg'
+//'../storage/image/design_pofo/c4d6.jpg'
+//'../storage/image/design_pofo/c4d7.jpg'
+//<img src='../storage/image/design_pofo/flower.jpg'></img>
+//<img src='../storage/image/design_pofo/kuff1.jpg'></img>
+//<img src='../storage/image/design_pofo/kuff2.jpg'></img>
+//<img src='../storage/image/design_pofo/kuff3.jpg'></img>
+//<img src='../storage/image/design_pofo/likeBook1.jpg'></img>
+//<img src='../storage/image/design_pofo/likeBook2.jpg'></img>
+//<img src='../storage/image/design_pofo/mintLife1.jpg'></img>
+//<img src='../storage/image/design_pofo/mintLife2.jpg'></img>
+//<img src='../storage/image/design_pofo/mintLife3.jpg'></img>
+//<img src='../storage/image/design_pofo/sleep.jpg'></img>
+//<img src='../storage/image/design_pofo/stardew1.jpg'></img>
+//<img src='../storage/image/design_pofo/stardew2.jpg'></img>
+//<img src='../storage/image/design_pofo/thoneApple.jpg'></img>
+//<img src='../storage/image/design_pofo/wemedi1.jpg'></img>
+//<img src='../storage/image/design_pofo/wemedi2.jpg'></img>
+//
+//<img src='../storage/image/design_pofo/younggeul1.jpg'></img>
+//<img src='../storage/image/design_pofo/younggeul2.jpg'></img>
+//<img src='../storage/image/design_pofo/youngSchool1.jpg'></img>
+//<img src='../storage/image/design_pofo/youngSchool2.jpg'></img>
+//<img src='../storage/image/design_pofo/youngSchool3.jpg'></img>
+//<img src='../storage/image/design_pofo/witchTea.jpg'></img>
